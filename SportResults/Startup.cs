@@ -38,9 +38,9 @@ namespace SportResults
             {
                 //var webpackDevMiddleware = new HotModuleReplacementPlugin(); HotModuleReplacement = true });
                 app.UseDeveloperExceptionPage();
-                app.UseWebpackDevMiddleware(new WebpackDevMiddlewareOptions {
-                    HotModuleReplacement = true
-                    }); 
+                //app.UseWebpackDevMiddleware(new WebpackDevMiddlewareOptions {
+                //    HotModuleReplacement = true
+                //    }); 
 
               
             }
